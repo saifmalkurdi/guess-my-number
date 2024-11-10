@@ -4,9 +4,12 @@
   "description": "Guess my number to win",
   "defualt": "index.html",
   "scripts": {
-    "start": "vite",
-    "build": "vite build"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "saif alkurdi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
