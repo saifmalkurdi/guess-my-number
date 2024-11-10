@@ -4,8 +4,8 @@
   "description": "Guess my number to win",
   "defualt": "index.html",
   "scripts": {
-    "start": "index.html",
-    "build": "build index.html --dist-dir ./dist"
+    "start": "vite",
+    "build": "vite build"
   },
   "author": "saif alkurdi",
   "license": "ISC"
